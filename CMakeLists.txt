@@ -17,4 +17,4 @@ if (MEM_TEST)
 endif ()
 
 install(TARGETS mem)
-install(DIRECTORY include/ DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
+install(DIRECTORY include/ DESTINATION include)
